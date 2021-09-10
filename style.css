@@ -10,7 +10,7 @@ body {
 }
 
 .main {
-  height: 1150px;
+  height: 1350px;
   width: 800px;
   background-color: white;
   box-shadow: 5px 7px 15px 5px #b9b6b6;
@@ -26,6 +26,8 @@ body {
 .profile {
   width: 180px;
   border-radius: 50%;
+  border: 5px solid rgb(86, 19, 92);
+  box-shadow: 3px 3px 10px rgb(0, 0, 0);
 }
 
 .p1 {
@@ -46,4 +48,197 @@ body {
   color: #c7c7c7;
   margin: 0px;
   margin-top: 10px;
+}
+
+.col-div-4 {
+  width: 35%;
+  float: left;
+}
+
+.col-div-8 {
+  width: 62%;
+  float: left;
+}
+
+.line {
+  border-left: 1px solid #c7c7c7;
+  height: 950px;
+  width: 2%;
+  margin-top: 30px;
+  float: left;
+}
+
+.content-box {
+  padding: 20px;
+}
+
+.head {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.p3 {
+  color: #7b7b7b;
+  margin-bottom: 3px;
+}
+
+.fa {
+  color: #151b29;
+}
+
+.bar_html span {
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-color: lightgray;
+  position: relative;
+}
+
+.bar_html span::before {
+  position: absolute;
+  content: "";
+  width: 80%;
+  height: 80%;
+  background-color: rgb(150, 39, 135);
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+}
+
+.bar_css span {
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-color: lightgray;
+  position: relative;
+}
+
+.bar_css span::before {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 80%;
+  background-color: rgb(150, 39, 135);
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+}
+
+.bar_js span {
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-color: lightgray;
+  position: relative;
+}
+
+.bar_js span::before {
+  position: absolute;
+  content: "";
+  width: 30%;
+  height: 80%;
+  background-color: rgb(150, 39, 135);
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+}
+
+.bar_git span {
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-color: lightgray;
+  position: relative;
+}
+
+.bar_git span::before {
+  position: absolute;
+  content: "";
+  width: 70%;
+  height: 80%;
+  background-color: rgb(150, 39, 135);
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+}
+
+.bar_terminal span {
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-color: lightgray;
+  position: relative;
+}
+
+.bar_terminal span::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 80%;
+  background-color: rgb(150, 39, 135);
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+}
+
+.bar_linux span {
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-color: lightgray;
+  position: relative;
+}
+
+.bar_linux span::before {
+  position: absolute;
+  content: "";
+  width: 80%;
+  height: 80%;
+  background-color: rgb(150, 39, 135);
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+}
+
+.bar_ph span {
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-color: lightgray;
+  position: relative;
+}
+
+.bar_ph span::before {
+  position: absolute;
+  content: "";
+  width: 90%;
+  height: 80%;
+  background-color: rgb(150, 39, 135);
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+}
+
+a {
+  color: #7b7b7b;
+  margin-bottom: 3px;
+  text-decoration: none;
+  position: relative;
+}
+
+.center_link a::before {
+  content: "";
+  bottom: 0%;
+  left: 0%;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(163, 30, 97);
+  transition: 0.2s;
+  transform: scaleX(0);
+}
+
+.center_link a:hover::before {
+  transform: scaleX(1);
 }
