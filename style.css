@@ -1,0 +1,288 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: radial-gradient(#c7c7c7 25%, #c7c7c7 74%);
+  font-family: system-ui;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.main {
+  height: 1400px;
+  width: 800px;
+  background-color: white;
+  box-shadow: 5px 7px 15px 5px #b9b6b6;
+  margin: 20px auto;
+}
+
+.top-section {
+  background-color: #3a083f;
+  text-align: center;
+  padding: 20px;
+}
+
+.profile {
+  width: 180px;
+  border-radius: 50%;
+  border: 5px solid rgb(86, 19, 92);
+  box-shadow: 3px 3px 10px rgb(0, 0, 0);
+}
+
+.p1 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.p1 span {
+  font-weight: 100;
+  color: #c7c7c7;
+}
+
+.p2 {
+  font-size: 20px;
+  color: #c7c7c7;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.col-left {
+  width: 35%;
+  float: left;
+}
+
+.col-right {
+  width: 62%;
+  float: left;
+}
+
+.line {
+  border-left: 1px solid #c7c7c7;
+  height: 930px;
+  width: 2%;
+  margin-top: 30px;
+  float: left;
+}
+
+.content-box {
+  padding: 20px;
+}
+
+.head {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.p3 {
+  color: #7b7b7b;
+  margin-bottom: 5px;
+}
+
+.fa {
+  color: #151b29;
+}
+
+.bar_html span {
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-color: lightgray;
+  position: relative;
+}
+
+.bar_html span::before {
+  position: absolute;
+  content: "";
+  width: 80%;
+  height: 80%;
+  background-color: rgb(150, 39, 135);
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+}
+
+.bar_css span {
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-color: lightgray;
+  position: relative;
+}
+
+.bar_css span::before {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 80%;
+  background-color: rgb(150, 39, 135);
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+}
+
+.bar_js span {
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-color: lightgray;
+  position: relative;
+}
+
+.bar_js span::before {
+  position: absolute;
+  content: "";
+  width: 30%;
+  height: 80%;
+  background-color: rgb(150, 39, 135);
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+}
+
+.bar_git span {
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-color: lightgray;
+  position: relative;
+}
+
+.bar_git span::before {
+  position: absolute;
+  content: "";
+  width: 70%;
+  height: 80%;
+  background-color: rgb(150, 39, 135);
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+}
+
+.bar_terminal span {
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-color: lightgray;
+  position: relative;
+}
+
+.bar_terminal span::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 80%;
+  background-color: rgb(150, 39, 135);
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+}
+
+.bar_linux span {
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-color: lightgray;
+  position: relative;
+}
+
+.bar_linux span::before {
+  position: absolute;
+  content: "";
+  width: 80%;
+  height: 80%;
+  background-color: rgb(150, 39, 135);
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+}
+
+.bar_ph span {
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-color: lightgray;
+  position: relative;
+}
+
+.bar_ph span::before {
+  position: absolute;
+  content: "";
+  width: 90%;
+  height: 80%;
+  background-color: rgb(150, 39, 135);
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+}
+
+a {
+  color: #7b7b7b;
+  margin-bottom: 3px;
+  text-decoration: none;
+  position: relative;
+}
+
+.center_link a::before {
+  content: "";
+  bottom: 0%;
+  left: 0%;
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(163, 30, 97);
+  transition: 0.2s;
+  transform: scaleX(0);
+}
+
+.center_link a:hover::before {
+  transform: scaleX(1);
+}
+
+.code {
+  border: 1px solid #c3c3c3;
+  border-left: 6px solid #8d2364;
+  padding: 5px;
+  background: rgba(173, 173, 164, 0.3);
+  overflow: auto;
+  margin: 0 0 0 0;
+  color: #7b7b7b;
+  margin-bottom: 5px;
+}
+
+.footer-section {
+  position: absolute;
+  height: 100px;
+  width: 800px;
+  background-color: #3a083f;
+  margin: 985px auto;
+}
+
+.icon1 {
+  width: 50px;
+  height: 50px;
+  filter: brightness(20);
+  position: absolute;
+  left: 670px;
+  top: 25px;
+}
+
+.icon2 {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  left: 90px;
+  top: 22px;
+}
+
+.p4 {
+  color: #c7bfbf;
+  margin-bottom: 5px;
+  position: absolute;
+  left: 295px;
+  top: 25px;
+}
