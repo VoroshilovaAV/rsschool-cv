@@ -106,11 +106,13 @@
                     <br/>
 
                 <p class="head">Code Example:</p>
-                <pre class="code"><code> function multiply(a, b) {                    
- return a * b;
- }
- let result = multiply(1, 2);
- alert(result);</code></pre>              
+                <p class="p3" style="font-size: 14px;">
+                    It is a recursive function that returns a string of numbers from 1 to n, separated by a space:
+                        <br/>
+                <pre class="code"><code> function my_function(n) {
+ if (n == 1) return n.toString();
+ else return my_function(n - 1) + " " + n;
+ }</code></pre>              
                </div>
         </div>
         <footer class="footer-section">
@@ -122,3 +124,4 @@
     </div>
 </body>
 </html>
+

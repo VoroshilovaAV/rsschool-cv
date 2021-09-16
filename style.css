@@ -117,7 +117,7 @@ body {
 .bar_css span::before {
   position: absolute;
   content: "";
-  width: 50%;
+  width: 65%;
   height: 80%;
   background-color: rgb(150, 39, 135);
   top: 50%;
@@ -136,7 +136,7 @@ body {
 .bar_js span::before {
   position: absolute;
   content: "";
-  width: 30%;
+  width: 50%;
   height: 80%;
   background-color: rgb(150, 39, 135);
   top: 50%;
